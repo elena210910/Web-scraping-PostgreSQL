@@ -20,3 +20,6 @@ el último paso es crear una tabla en Excel donde todo se organiza por descripci
 
 **Enlace Excel para ver el resultado final** 
 https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Felena210910%2FWeb-scraping-PostgreSQL%2Fmain%2Fweb_scraping%2Fhabitaclia.xlsx&wdOrigin=BROWSELINK
+
+**Nota**
+Es importante entender que este sitio es dinámico. A día de hoy, 7 de agosto de 2024, funciona correctamente, pero en una semana podría necesitar soporte técnico y algunos cambios. Por lo tanto, la necesidad de soporte técnico para estos scrapers web es un aspecto crucial.
