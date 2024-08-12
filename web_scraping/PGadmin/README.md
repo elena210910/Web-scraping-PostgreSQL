@@ -9,17 +9,7 @@ Si el archivo aún está guardado en formato Excel, conviértelo a csv como lo r
 
 Ahora, según nuestra tabla obtenida del parsing, necesitamos crear una tabla en PostgreSQL, y esto es lo que obtenemos:
 
-
-CREATE TABLE Properties (
-    id SERIAL PRIMARY KEY,
-    descripcion TEXT,
-    precio VARCHAR(50),
-    m2 INT,
-    hab INT,
-    banos FLOAT,
-    agencia VARCHAR(255),
-    enlace TEXT
-);
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/code_SQL
 
 Ten en cuenta que el precio, que es crucial para nuestros análisis,
 debe guardarse con el tipo de datos VARCHAR, pero no te preocupes, lo cambiaremos más tarde. 
