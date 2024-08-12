@@ -1,0 +1,6 @@
+ALTER TABLE Properties ADD COLUMN precio_numeric INTEGER; 
+-- añadimos una nueva columna
+
+UPDATE Properties
+SET precio_numeric = CAST(REPLACE(REPLACE(precio, '€', ''), '.', '') AS INTEGER);
+-- ahora actualizamos la columna con valores numéricos
