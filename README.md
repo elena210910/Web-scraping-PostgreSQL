@@ -15,6 +15,7 @@ En este proyecto, se realizó un web scraping de datos de alquiler de propiedade
 
 1. **Web Scraping**:
    - Uso de Python para extraer datos de alquiler de propiedades del sitio web seleccionado.
+     https://github.com/elena210910/Web-scraping-PostgreSQL/tree/main/web_scraping
    
 2. **Carga de Datos en PostgreSQL**:
    - Creación de una base de datos en PostgreSQL y carga de los datos tabulares, asegurando que la tabla esté en la forma normal 1NF.
