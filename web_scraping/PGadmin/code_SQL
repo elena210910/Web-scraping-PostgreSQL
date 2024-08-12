@@ -1,0 +1,10 @@
+CREATE TABLE Properties (
+    id SERIAL PRIMARY KEY,
+    descripcion TEXT,
+    precio VARCHAR(50),
+    m2 INT,
+    hab INT,
+    banos FLOAT,
+    agencia VARCHAR(255),
+    enlace TEXT
+);
