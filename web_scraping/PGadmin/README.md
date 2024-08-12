@@ -24,5 +24,8 @@ https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PG
 https://github.com/elena210910/Web-scraping-PostgreSQL/commit/87e9f4b8e343e4e76585a2eb12a8be351d209e0e
 
 Bueno, ahora pasemos al precio. Como mencioné anteriormente, actualmente está con el tipo de datos VARCHAR, y esto es lo que haremos:
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/code_SQL
+
+**Ahora podemos realizar diferentes operaciones analíticas sobre los datos, utilizando filtros, agrupaciones y ordenaciones.**
 
 
