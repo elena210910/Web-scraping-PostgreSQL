@@ -18,7 +18,7 @@ En este proyecto, se realizó un web scraping de datos de alquiler de propiedade
      https://github.com/elena210910/Web-scraping-PostgreSQL/tree/main/web_scraping
    
 2. **Carga de Datos en PostgreSQL**:
-   - Creación de una base de datos en PostgreSQL y carga de los datos tabulares, asegurando que la tabla esté en la forma normal 1NF.
+   - Carga de los datos tabulares en la base de datos PostgreSQL en PGadmin , asegurando que la tabla esté en la forma normal 1NF.
      https://github.com/elena210910/Web-scraping-PostgreSQL/tree/main/web_scraping/PGadmin
 
 ## Requisitos
