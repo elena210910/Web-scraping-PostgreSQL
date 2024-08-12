@@ -27,4 +27,9 @@ Así que hemos creado la tabla, ahora la tenemos en forma normal 1NF.
 El siguiente paso es cargar los datos de nuestra tabla en la tabla de PostgreSQL.
 
 Ahora, carguemos los datos de nuestra tabla en la base de datos usando Python. 
-Este código lo he guardado en la misma carpeta bajo el nombre CODE_PYTHON_SQL:
+Este código lo he guardado en la misma carpeta bajo el nombre CODE_PYTHON_SQL:   
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/CODE_PYTHON_SQL
+
+¡Y voilà! Nuestra tabla ahora está en PostgreSQL.!
+
+
