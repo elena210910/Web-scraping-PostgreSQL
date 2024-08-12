@@ -1,6 +1,6 @@
 **Web Scraping con Python** 
 
-Este repositorio contiene un ejemplo de un web scraper que recopila datos sobre alquileres de viviendas 
+Esta carpeta contiene un ejemplo de un web scraper que recopila datos sobre alquileres de viviendas 
 en la ciudad de Sabadell desde el sitio web HABITACLIA. 
 HABITACLIA es uno de los principales sitios en el mercado inmobiliario en España. 
 El scraper utiliza la biblioteca Selenium, que imita al máximo las acciones de un usuario real.
