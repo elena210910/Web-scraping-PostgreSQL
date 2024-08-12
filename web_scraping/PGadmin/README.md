@@ -31,5 +31,8 @@ Este código lo he guardado en la misma carpeta bajo el nombre CODE_PYTHON_SQL:
 https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/CODE_PYTHON_SQL
 
 ¡Y voilà! Nuestra tabla ahora está en PostgreSQL.!
+https://github.com/elena210910/Web-scraping-PostgreSQL/commit/87e9f4b8e343e4e76585a2eb12a8be351d209e0e
+
+Bueno, ahora pasemos al precio. Como mencioné anteriormente, actualmente está con el tipo de datos VARCHAR, y esto es lo que haremos:
 
 
