@@ -1,0 +1,38 @@
+import csv
+import psycopg2
+
+# Función para verificar los datos en una fila
+def check_data(row):
+    try:
+        # Convertir y verificar los datos
+        precio = int(row['Precio'].replace(' €', '').replace(',', ''))
+        m2 = int(row['M2'])
+        hab = int(row['Hab'])
+        banos = float(row['baños'])
+    except ValueError as e:
+        # Imprimir un mensaje de error si los datos no son válidos
+        print(f"Error en la fila: {row}, error: {e}")
+        return False
+    return True
+
+# Conectar a la base de datos PostgreSQL
+conn = psycopg2.connect("dbname=yourdbname user=youruser password=yourpassword")
+cursor = conn.cursor()
+
+# Abrir el archivo CSV
+with open('yourfile.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        # Verificar los datos en la fila
+        if check_data(row):
+            # Insertar los datos en la tabla PostgreSQL
+            cursor.execute(
+                "INSERT INTO Properties (descripcion, precio, m2, hab, banos, agencia, enlace) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                (row['Descripcion'], row['Precio'], row['M2'], row['Hab'], row['baños'], row['Agencia'], row['Enlase'])
+            )
+
+# Confirmar los cambios en la base de datos
+conn.commit()
+# Cerrar el cursor y la conexión
+cursor.close()
+conn.close()
