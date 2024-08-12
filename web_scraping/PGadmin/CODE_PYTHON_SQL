@@ -4,8 +4,7 @@ import psycopg2
 # Función para verificar los datos en una fila
 def check_data(row):
     try:
-        # Convertir y verificar los datos
-        precio = int(row['Precio'].replace(' €', '').replace(',', ''))
+        # verificar los datos
         m2 = int(row['M2'])
         hab = int(row['Hab'])
         banos = float(row['baños'])
