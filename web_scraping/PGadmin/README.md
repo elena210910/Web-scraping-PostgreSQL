@@ -35,6 +35,7 @@ https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PG
 
 
 El resultado final puede ver en este enlace:
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/rentalpropertiesdb%20-%20public%20-%20properties.png
 
 
 **Ahora podemos realizar diferentes operaciones analíticas sobre los datos, utilizando filtros, agrupaciones y ordenaciones.**
