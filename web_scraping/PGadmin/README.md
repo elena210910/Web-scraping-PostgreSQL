@@ -25,6 +25,17 @@ https://github.com/elena210910/Web-scraping-PostgreSQL/commit/87e9f4b8e343e4e765
 
 Bueno, ahora pasemos al precio. Como mencioné anteriormente, actualmente está con el tipo de datos VARCHAR, y esto es lo que haremos:
 https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/codeSQL_update
+Para mejorar la eficiencia y la precisión de las consultas, convertimos la columna precio de tipo VARCHAR a tipo INTEGER. 
+Esto nos permite realizar operaciones aritméticas y comparaciones de manera más eficiente.
+
+Después de la conversión, tenemos dos columnas: precio_numeric (con el nuevo tipo de datos INTEGER) y precio (con el tipo de datos VARCHAR).
+Para simplificar la estructura de la tabla y evitar redundancias, realizamos los siguientes pasos adicionales:
+Eliminare la columna precio original y renombrare la columna precio_numeric a precio.
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/PGadmin/SQL_eliminar_renombrar
+
+
+El resultado final puede ver en este enlace:
+
 
 **Ahora podemos realizar diferentes operaciones analíticas sobre los datos, utilizando filtros, agrupaciones y ordenaciones.**
 
