@@ -1,0 +1,9 @@
+CREATE TABLE prop_facts
+(
+ "id"   serial4 NOT NULL,  -- Identificador único para cada propiedad, generado automáticamente
+ m2     int4 NOT NULL,     -- Metros cuadrados de la propiedad
+ banos  float8 NOT NULL,   -- Número de baños en la propiedad
+ hab    int4 NOT NULL,     -- Número de habitaciones en la propiedad
+ precio int4 NOT NULL,     -- Precio de la propiedad
+ CONSTRAINT PK_1 PRIMARY KEY ( "id" )  -- Definición de la clave primaria para la tabla
+);
