@@ -23,11 +23,13 @@ En este proyecto, se realizó un web scraping de datos de alquiler de propiedade
 
 3. **Modelado Dimensional y Normalización**:
    - Después de cargar los datos en la base de datos, se realizó la normalización de las tablas hasta la tercera forma normal (3NF) para mejorar la estructura y eficiencia de los datos.
-   - Se crearon tablas dimensionadas (`descrip_dim`, `agenc_dim`, `prop_facts`) para organizar mejor los datos.     
+   - Se crearon tablas dimensionadas (`descrip_dim`, `agenc_dim`, `prop_facts`) para organizar mejor los datos.
+     https://github.com/elena210910/Web-scraping-PostgreSQL/tree/main/web_scraping/dimensional_modeling    
 
 ## Requisitos
 
 - Python 3.x
 - Librerías de Python: SELENIUM, Pandas.
-- PostgreSQL (PGadmin)
+- PostgreSQL (PGadmin, DBvear)
+
 
