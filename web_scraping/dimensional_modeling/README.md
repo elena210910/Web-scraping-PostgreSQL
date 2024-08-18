@@ -21,6 +21,7 @@ En esta carpeta, se documenta el proceso de normalización y modelado dimensiona
 3. **Migración de Datos**:
    - Los datos de la tabla `properties` se migran a las nuevas tablas dimensionadas. Este proceso implica la transferencia de datos relevantes a cada una de las tablas especializadas.
    - La migración se realiza utilizando consultas SQL para asegurar que los datos se distribuyan correctamente y mantengan su integridad.
+     https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/dimensional_modeling/SQL_Migracion_de_Datos
 
 4. **Relaciones entre Tablas**:
    - Las tablas dimensionadas están relacionadas entre sí mediante claves foráneas. Por ejemplo, `prop_facts` actúa como la tabla central y tiene relaciones con `agenc_dim` y `descrip_dim` a través del atributo `id`.
