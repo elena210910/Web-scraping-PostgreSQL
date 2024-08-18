@@ -30,6 +30,6 @@ En este proyecto, se realizó un web scraping de datos de alquiler de propiedade
 
 - Python 3.x
 - Librerías de Python: SELENIUM, Pandas.
-- PostgreSQL (PGadmin, DBvear)
+- PostgreSQL (PGadmin, DBeaver)
 
 
