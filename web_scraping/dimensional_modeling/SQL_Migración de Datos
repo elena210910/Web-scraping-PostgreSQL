@@ -1,0 +1,17 @@
+-- Migración de datos a la tabla prop_facts
+INSERT INTO prop_facts (id, m2, banos, hab, precio)
+SELECT id, m2, banos, hab, precio
+FROM properties;
+-- Selecciona y copia los datos de id, m2, banos, hab y precio desde la tabla properties a la tabla prop_facts
+
+-- Migración de datos a la tabla agenc_dim
+INSERT INTO agenc_dim (id, agencia, enlace)
+SELECT id, agencia, enlace
+FROM properties;
+-- Selecciona y copia los datos de id, agencia y enlace desde la tabla properties a la tabla agenc_dim
+
+-- Migración de datos a la tabla descrip_dim
+INSERT INTO descrip_dim (id, descripcion)
+SELECT id, descripcion
+FROM properties;
+-- Selecciona y copia los datos de id y descripcion desde la tabla properties a la tabla descrip_dim
