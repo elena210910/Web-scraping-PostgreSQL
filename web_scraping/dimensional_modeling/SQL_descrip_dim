@@ -1,0 +1,6 @@
+CREATE TABLE descrip_dim
+(
+ "id"        int4 NOT NULL,  -- Identificador único para cada descripción, relacionado con la tabla prop_facts
+ descripcion text NOT NULL,  -- Descripción detallada de la propiedad
+ CONSTRAINT FK_1 FOREIGN KEY ( "id" ) REFERENCES prop_facts ( "id" )  -- Definición de la clave foránea que referencia a la tabla prop_facts
+);
