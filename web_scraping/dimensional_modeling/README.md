@@ -27,7 +27,8 @@ En esta carpeta, se documenta el proceso de normalización y modelado dimensiona
    - Las tablas dimensionadas están relacionadas entre sí mediante claves foráneas. Por ejemplo, `prop_facts` actúa como la tabla central y tiene relaciones con `agenc_dim` y `descrip_dim` a través del atributo `id`.
    - Estas relaciones permiten realizar consultas complejas y obtener información detallada de manera eficiente.
 
-Este proceso de normalización y modelado dimensional no solo mejora la estructura de los datos, sino que también optimiza el rendimiento de las consultas y facilita el mantenimiento de la base de datos.
+Este proceso de normalización y modelado dimensional no solo mejora la estructura de los datos, sino que también optimiza el rendimiento de las consultas y facilita el mantenimiento de la base de datos. Aqui se puede observar el resultado final:  
+https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/dimensional_modeling/rentalpropertiesdb%20-%20public%20-%20prop_facts.png
 
 ### NOTA
 En este ejemplo, la tabla general `properties`  contiene solo 30 filas. Esto se ha hecho exclusivamente con fines demostrativos para mostrar el proceso de tratamiento de datos, su carga en PostgreSQL y la posterior normalización de las tablas. Este enfoque puede ser extremadamente útil y eficiente para manejar conjuntos de datos mucho más grandes.
