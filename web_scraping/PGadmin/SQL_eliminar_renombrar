@@ -1,0 +1,6 @@
+ALTER TABLE Properties DROP COLUMN precio;
+-- eliminamos la columna precio, ya que ahora tenemos una versión numérica
+
+
+ALTER TABLE Properties RENAME COLUMN precio_numeric TO precio;
+-- renombramos la columna precio_numeric a precio para mantener la consistencia en los nombres de las columnas
