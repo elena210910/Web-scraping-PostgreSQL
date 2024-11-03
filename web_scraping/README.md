@@ -6,6 +6,7 @@ HABITACLIA es uno de los principales sitios en el mercado inmobiliario en Españ
 El scraper utiliza la biblioteca Selenium, que imita al máximo las acciones de un usuario real.
 
 **Descripción**
+
 [Codigo Python de web-scraper](https://github.com/elena210910/Web-scraping-PostgreSQL/blob/main/web_scraping/scraping_script.py)
 El scraper recopila datos sobre alquileres de viviendas en la ciudad de Sabadell. 
 (Se puede cambiar el enlace a cualquier otra ciudad, ya sea para ventas o alquileres). 
